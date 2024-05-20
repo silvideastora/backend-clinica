@@ -1,0 +1,83 @@
+[2024-05-20 16:20:11] [ ERROR] [PacienteServiceTest:33] Error de formato en URL; debe ser "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" pero es "jdbc:h2:∼/clinica10"
+URL format error; must be "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" but is "jdbc:h2:∼/clinica10" [90046-214]
+[2024-05-20 16:23:31] [ ERROR] [PacienteServiceTest:33] Error de formato en URL; debe ser "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" pero es "jdbc:h2:∼/clinica10"
+URL format error; must be "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" but is "jdbc:h2:∼/clinica10" [90046-214]
+[2024-05-20 16:24:56] [ ERROR] [PacienteServiceTest:33] Error de formato en URL; debe ser "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" pero es "jdbc:h2:∼/clinica10"
+URL format error; must be "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" but is "jdbc:h2:∼/clinica10" [90046-214]
+[2024-05-20 16:26:14] [ ERROR] [PacienteServiceTest:33] Error de formato en URL; debe ser "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" pero es "jdbc:h2:~/clinica10"
+URL format error; must be "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" but is "jdbc:h2:~/clinica10" [90046-214]
+[2024-05-20 16:26:25] [ ERROR] [PacienteServiceTest:33] Error de formato en URL; debe ser "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" pero es "jdbc:h2:~/clinica10"
+URL format error; must be "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" but is "jdbc:h2:~/clinica10" [90046-214]
+[2024-05-20 16:28:59] [ ERROR] [PacienteServiceTest:33] Error de Sintaxis en sentencia SQL "\000a\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"
+Syntax error in SQL statement "\000a\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"; SQL statement:
+
+
+
+
+DROP TABLE IF EXISTS PACIENTES:
+CREATE TABLE PACIENTES(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+APEllIDO VARCHAR(50) NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+DNI VARCHAR(50) NOT NULL,
+FECHA_INGRESO DATE NOT NULL,
+ID_DOMICILIO INT) [42000-214]
+[2024-05-20 16:31:27] [ ERROR] [PacienteServiceTest:33] Error de Sintaxis en sentencia SQL "\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"
+Syntax error in SQL statement "\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"; SQL statement:
+
+
+
+DROP TABLE IF EXISTS PACIENTES:
+CREATE TABLE PACIENTES(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+APEllIDO VARCHAR(50) NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+DNI VARCHAR(50) NOT NULL,
+FECHA_INGRESO DATE NOT NULL,
+ID_DOMICILIO INT) [42000-214]
+[2024-05-20 16:33:17] [ ERROR] [PacienteServiceTest:33] Error de Sintaxis en sentencia SQL "\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"
+Syntax error in SQL statement "\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"; SQL statement:
+
+
+
+DROP TABLE IF EXISTS PACIENTES:
+CREATE TABLE PACIENTES(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+APEllIDO VARCHAR(50) NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+DNI VARCHAR(50) NOT NULL,
+FECHA_INGRESO DATE NOT NULL,
+ID_DOMICILIO INT) [42000-214]
+[2024-05-20 16:34:10] [ ERROR] [PacienteServiceTest:33] Error de Sintaxis en sentencia SQL "\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"
+Syntax error in SQL statement "\000a\000a\000aDROP TABLE IF EXISTS PACIENTES[*]:\000aCREATE TABLE PACIENTES(\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aAPEllIDO VARCHAR(50) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aDNI VARCHAR(50) NOT NULL,\000aFECHA_INGRESO DATE NOT NULL,\000aID_DOMICILIO INT)"; SQL statement:
+
+
+
+DROP TABLE IF EXISTS PACIENTES:
+CREATE TABLE PACIENTES(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+APEllIDO VARCHAR(50) NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+DNI VARCHAR(50) NOT NULL,
+FECHA_INGRESO DATE NOT NULL,
+ID_DOMICILIO INT) [42000-214]
+[2024-05-20 16:35:22] [ INFO ] [DomicilioDaoH2:58] Paciente persistido: Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}
+[2024-05-20 16:35:22] [ INFO ] [PacienteDaoH2:70] Paciente guardadoPaciente{id=2, apellido='Navajas', nombre='Pedro', dni='tarjeta', fechaIngreso=2024-05-14, domicilio=Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}}
+[2024-05-20 16:36:29] [ INFO ] [DomicilioDaoH2:58] Paciente persistido: Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}
+[2024-05-20 16:36:29] [ INFO ] [PacienteDaoH2:70] Paciente guardadoPaciente{id=2, apellido='Navajas', nombre='Pedro', dni='tarjeta', fechaIngreso=2024-05-14, domicilio=Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}}
+[2024-05-20 16:39:35] [ INFO ] [DomicilioDaoH2:58] Paciente persistido: Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}
+[2024-05-20 16:39:35] [ INFO ] [PacienteDaoH2:70] Paciente guardadoPaciente{id=2, apellido='Navajas', nombre='Pedro', dni='tarjeta', fechaIngreso=2024-05-14, domicilio=Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}}
+[2024-05-20 16:42:43] [ INFO ] [DomicilioDaoH2:113] domicilio encontrado: Domicilio{id=1, calle='De las Sirenas', numero=123, localidad='Coyoacan', provincia='CDMX'}
+[2024-05-20 16:42:43] [ INFO ] [PacienteDaoH2:125] Paciente encontradoPaciente{id=1, apellido='Wick', nombre='John', dni='123456', fechaIngreso=2024-02-15, domicilio=Domicilio{id=1, calle='De las Sirenas', numero=123, localidad='Coyoacan', provincia='CDMX'}}
+[2024-05-20 16:56:05] [ INFO ] [DomicilioDaoH2:113] domicilio encontrado: Domicilio{id=1, calle='De las Sirenas', numero=123, localidad='Coyoacan', provincia='CDMX'}
+[2024-05-20 16:56:05] [ INFO ] [PacienteDaoH2:170] Pacientes listado: []
+[2024-05-20 16:58:41] [ INFO ] [DomicilioDaoH2:113] domicilio encontrado: Domicilio{id=1, calle='De las Sirenas', numero=123, localidad='Coyoacan', provincia='CDMX'}
+[2024-05-20 16:58:41] [ INFO ] [PacienteDaoH2:170] Pacientes listado: []
+[2024-05-20 16:59:09] [ INFO ] [DomicilioDaoH2:113] domicilio encontrado: Domicilio{id=1, calle='De las Sirenas', numero=123, localidad='Coyoacan', provincia='CDMX'}
+[2024-05-20 16:59:09] [ INFO ] [PacienteDaoH2:170] Pacientes listado: []
+[2024-05-20 16:59:24] [ INFO ] [DomicilioDaoH2:113] domicilio encontrado: Domicilio{id=1, calle='De las Sirenas', numero=123, localidad='Coyoacan', provincia='CDMX'}
+[2024-05-20 16:59:24] [ INFO ] [PacienteDaoH2:170] Pacientes listado: []
+[2024-05-20 18:13:26] [ INFO ] [PacienteEnMemoria:19] Paciente guardado: Paciente{id=null, apellido='Navajas', nombre='Pedro', dni='tarjeta', fechaIngreso=2024-05-14, domicilio=Domicilio{id=null, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}}
+[2024-05-20 18:25:29] [ INFO ] [DomicilioDaoH2:58] Paciente persistido: Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}
+[2024-05-20 18:25:29] [ INFO ] [PacienteDaoH2:70] Paciente guardadoPaciente{id=2, apellido='Navajas', nombre='Pedro', dni='tarjeta', fechaIngreso=2024-05-14, domicilio=Domicilio{id=2, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}}
+[2024-05-20 18:25:45] [ INFO ] [PacienteEnMemoria:20] Paciente guardado: Paciente{id=1, apellido='Navajas', nombre='Pedro', dni='tarjeta', fechaIngreso=2024-05-14, domicilio=Domicilio{id=null, calle='Francisco Mina', numero=234, localidad='Estado Mexico', provincia='Ixtapaluca'}}
